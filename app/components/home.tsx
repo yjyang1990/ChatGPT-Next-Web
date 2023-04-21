@@ -202,6 +202,7 @@ function _Home() {
                 shadow
               />
             </div>
+            <div className={styles["sidebar-action"]}></div>
           </div>
           <div>
             <IconButton
