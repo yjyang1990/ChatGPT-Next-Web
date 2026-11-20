@@ -6,7 +6,7 @@
 
 <h1 align="center">NextChat</h1>
 
-一键免费部署你的私人 ChatGPT 网页应用，支持 Claude, GPT4 & Gemini Pro 模型。
+一键免费部署你的私人 AI 助手网页应用，支持 Claude, GPT4 & Gemini Pro 模型。
 
 [NextChatAI](https://nextchat.club?utm_source=readme) / [企业版](#%E4%BC%81%E4%B8%9A%E7%89%88) / [演示 Demo](https://chat-gpt-next-web.vercel.app/) / [反馈 Issues](https://github.com/Yidadaa/ChatGPT-Next-Web/issues) / [加入 Discord](https://discord.gg/zrhvHCr79N)
 
@@ -274,7 +274,8 @@ Stability API密钥
 
 ### `ENABLE_MCP` (optional)
 
-启用MCP（Model Context Protocol）功能
+启用 MCP（Model Context Protocol）功能。出于安全考虑，启用 MCP 时必须同时配置
+`CODE`，所有 MCP Server Action 都会校验该访问密码。
 
 ### `SILICONFLOW_API_KEY` (optional)
 

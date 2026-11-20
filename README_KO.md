@@ -57,7 +57,7 @@
 
 > 빌드 전 환경 변수(env) `ENABLE_MCP=true` 설정 필요
 
-<img src="https://github.com/user-attachments/assets/d8851f40-4e36-4335-b1a4-ec1e11488c7e" />
+<img src="./docs/images/mcp-market.png" alt="NextChat MCP Market" />
 
 ## 엔터프라이즈 버전
 
@@ -363,7 +363,8 @@ Stability API URL을 커스터마이징합니다.
 
 ### `ENABLE_MCP` (선택 사항)
 
-MCP (Model Context Protocol) 기능을 활성화합니다.
+MCP (Model Context Protocol) 기능을 활성화합니다. 보안을 위해 MCP를 사용할 때는
+`CODE`도 설정해야 하며 모든 MCP Server Action이 이 접근 코드를 확인합니다.
 
 ### `SILICONFLOW_API_KEY` (선택 사항)
 
